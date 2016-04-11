@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>App-diseño</title>
+<<meta name="viewport" content="width-device-width, initial scale=1">
+<link rel="stylesheet" href="jquery.mobile-1.4.5.css">
+<script src="jquery-1.12.2.min.js"></script>
+<script src="jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+<body>
+	
+<div id="inicio" data-role="page">
+
+<div data-role="content">
+
+		<a href="#recorridos" class="ui-btn ui-corner-all" data-transition="flip">Recorridos</a>
+
+		<a href="#shakeit" class="ui-btn ui-corner-all" data-transition="flip">Shake it</a>
+		
+		<a href="#qr" class="ui-btn ui-corner-all" data-transition="flip">QR Trailers</a>
+		
+		<a href="#badges" class="ui-btn ui-corner-all" data-transition="flip">Guía Badges</a>
+
+</div>
+
+<div id="recorridos" data-role="page">
+	
+	<a href="#config" class="ui-btn ui-corner-all" data-transition="flip">Configuración</a>
+
+</div>
+
+<div id="config" data-role="page">
+	
+	<form>
+	<label>
+	<input type="checkbox" name="checkbox-0 ">Recorridos
+	</label>
+	</form>
+	<p>Geolocalización del dispositivo para mostrar cines cercanos</p>
+
+	<form>
+	<label>
+	<input type="checkbox" name="checkbox-0 ">Configuración de gustos
+	</label>
+	</form>
+	<p>Notifica de la cercanía de cines con películas que correspondan a la configuración personal</p>
+
+	<form>
+	<div class="ui-field-contain">
+	<label for="select-native-1">Tipo de Película 1</label>
+	<select name="select-native-1" id="select-native-1">
+	<option value="1">Acción</option>
+	<option value="2">Drama</option>
+	<option value="3">Suspenso</option>
+	<option value="4">Terror</option>
+	</select>
+</div>
+</form>
+
+<form>
+	<div class="ui-field-contain">
+	<label for="select-native-1">Tipo de Película 2</label>
+	<select name="select-native-1" id="select-native-1">
+	<option value="1">Acción</option>
+	<option value="2">Drama</option>
+	<option value="3">Suspenso</option>
+	<option value="4">Terror</option>
+	</select>
+</div>
+</form>
+
+
+</div>
+
+</div>
+
+</body>
+
+<<!-->especificidad del CSS para los estilos</!-->
